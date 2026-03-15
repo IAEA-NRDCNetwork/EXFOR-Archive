@@ -1,15 +1,15 @@
-ENTRY            10680   20010926   20030411
-SUBENT        10680001   20010926   20030411
-BIB                  7         17
+ENTRY            10680   20260110   20260316   20260316       1525
+SUBENT        10680001   20260110   20260316   20260316       1525
+BIB                  7         19
 INSTITUTE  (1USAORL)
-REFERENCE  (P,ORNL-5137,2,197605)
-           (C,76LOWELL,1,143,197607) Review of ORNL measurements
+REFERENCE  (P,ORNL-5137,2,1975)
+           (C,76LOWELL,,143,1976) Review of ORNL measurements
            ((P,DOE-NDC-12,231,1978)=(P,BNL-NCS-24273,231,1978))
              Re-analysis of data.
 AUTHOR     (J.A.Harvey,J.Halperin,N.W.Hill,S.Raman,R.L.Macklin)
 TITLE       (n,alpha),(n,p),(n,gamma), and total neutron-cross-
            section measurements on 59Ni
-FACILITY   (LINAC) Oak Ridge Electron Linear Accelerator
+FACILITY   (LINAC,1USAORL) Oak Ridge Electron Linear Accelerator
 STATUS     No reply to author proof.
 HISTORY    (19770809C)
            (19810408A) Reference update
@@ -18,10 +18,12 @@ HISTORY    (19770809C)
            (20000214A) Updated to new date formats, BIB update.
            (20010926A) Subentries 7,8 deleted, not from this
                        reference.
-ENDBIB              17
+           (20260109U) OS. Date of 1st ref. corrected,
+            minor BIB changes
+ENDBIB              19
 NOCOMMON             0          0
-ENDSUBENT           20
-SUBENT        10680002   20000215   20010426
+ENDSUBENT           22
+SUBENT        10680002   20000215   20010426   20050926       0000
 BIB                 10         12
 REACTION   (28-NI-59(N,A)26-FE-56,,SIG)
 INC-SOURCE (PHOTO) Photons on Water-moderated Ta target
@@ -43,7 +45,7 @@ EV         B          B
  0.0253     11.4       0.8
 ENDDATA              3
 ENDSUBENT           20
-SUBENT        10680003   20000215   20010426
+SUBENT        10680003   20000215   20010426   20050926       0000
 BIB                  9          9
 REACTION   (28-NI-59(N,P)27-CO-59,,SIG)
 INC-SOURCE (PHOTO) Photons on Water-moderated Ta target
@@ -62,7 +64,7 @@ EV         B          B
  0.0253     1.43       0.13
 ENDDATA              3
 ENDSUBENT           17
-SUBENT        10680004   20000215   20010426
+SUBENT        10680004   20000215   20010426   20050926       0000
 BIB                  5         13
 REACTION  1(28-NI-59(N,0),,EN)
           2(28-NI-59(N,TOT),,WID)
@@ -127,7 +129,7 @@ NO-DIM     NO-DIM     NO-DIM
             .5        0.8
 ENDDATA             45
 ENDSUBENT           63
-SUBENT        10680005   20000215   20010426
+SUBENT        10680005   20000215   20010426   20050926       0000
 BIB                  4         12
 REACTION  1(28-NI-59(N,0),,EN)
           2(((28-NI-59(N,EL),,WID,,G)*(28-NI-59(N,A),,WID))/
@@ -172,7 +174,7 @@ EV         EV         EV         EV         EV
 
 ENDDATA             26
 ENDSUBENT           43
-SUBENT        10680006   20000215   20010426
+SUBENT        10680006   20000215   20010426   20050926       0000
 BIB                  7          9
 REACTION   (28-NI-59(N,G)28-NI-60,,SIG)
 INC-SPECT  Energy resolution 0.15%.
@@ -191,9 +193,9 @@ EV         B          B
  0.0253     78.         8.
 ENDDATA              3
 ENDSUBENT           17
-NOSUBENT      10680007   20010926   20020117
-NOSUBENT      10680008   20010926   20020117
-SUBENT        10680009   20010926   20020117
+NOSUBENT      10680007   20010926   20020117   20050926       0000
+NOSUBENT      10680008   20010926   20020117   20050926       0000
+SUBENT        10680009   20010926   20020117   20050926       0000
 BIB                  7          9
 REACTION   (28-NI-59(N,TOT),,SIG)
             Run ID: 8275
@@ -2920,7 +2922,7 @@ EV         B          B
  1.9760E+00 1.6629E+01 3.3807E+00
 ENDDATA           2711
 ENDSUBENT         2725
-SUBENT        10680010   20030303   20030411
+SUBENT        10680010   20030303   20030411   20050926       0000
 BIB                  8         10
 REACTION   (28-NI-59(N,TOT),,SIG)
             Run ID: 8269.
