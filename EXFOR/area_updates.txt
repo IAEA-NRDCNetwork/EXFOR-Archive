@@ -1,4 +1,4 @@
-#---------------Area:1	#Entry:4744	#Updates:7496	#maxHistory=8:Entry=14110
+#---------------Area:1	#Entry:4745	#Updates:7544	#maxHistory=8:Entry=12866
 #---------------Area:2	#Entry:3692	#Updates:7100	#maxHistory=12:Entry=22941
 #---------------Area:3	#Entry:2089	#Updates:4394	#maxHistory=8:Entry=31714
 #---------------Area:4	#Entry:1782	#Updates:4393	#maxHistory=10:Entry=41240
